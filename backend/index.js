@@ -23,10 +23,10 @@ app.use(cors({
 app.use('/api/auth', authRoutes);
 app.use('/api/message', messageRoute);
 
-app.use(express.static(path.join(_dirname, "../frontend/dist")));
+app.use(express.static(path.join(_dirname, "/frontend/dist")));
 
 app.get('/*any', (_, res) =>{
-    res.sendFile(path.resolve(_dirname, "../frontend", "dist", "index.html"));
+    res.sendFile(path.resolve(_dirname, "frontend", "dist", "index.html"));
 })
 
 
