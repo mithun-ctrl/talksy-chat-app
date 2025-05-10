@@ -6,4 +6,5 @@ export const config ={
     MONGODB_URI: process.env.MONGODB_URI,
     JWT_SECRET: process.env.JWT_SECRET,
     NODE_ENV: process.env.NODE_ENV,
+    ORIGIN_URL: "http://localhost:5174"
 }
