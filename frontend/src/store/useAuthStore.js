@@ -3,7 +3,7 @@ import {axiosBackendApi} from "../lib/axios.js";
 import {darkErrorToast, darkSuccessToast} from "../components/DarkModeToast.jsx";
 import {io} from "socket.io-client";
 
-const BASE_URL =  "http://localhost:5000";
+const BASE_URL =  "https://spicy-cecil-vitsmithun-c7bff47a.koyeb.app";
 
 export const useAuthStore = create((set, get) => ({
     authUser: null,

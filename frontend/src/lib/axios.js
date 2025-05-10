@@ -1,6 +1,6 @@
 import axios from "axios";
 
 export const axiosBackendApi = axios.create({
-    baseURL: "http://localhost:5000/api",
+    baseURL: "https://spicy-cecil-vitsmithun-c7bff47a.koyeb.app/api",
     withCredentials: true,
 })
