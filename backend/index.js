@@ -31,7 +31,7 @@ app.get('/*any', (_, res) =>{
 
 
 server.listen(PORT, () =>{
-    console.log(`Backend running on port ${PORT}`)
+    console.log(`Health check server is running on port ${PORT}`)
     connectDatabase()
 
 });
